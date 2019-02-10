@@ -1,0 +1,41 @@
+/* 
+	CSS by Dan Høegh
+	UCN MMD 2018 
+*/
+
+* {
+	box-sizing: border-box;
+}
+
+body {
+	font-family: consolas;
+	padding: 5vw;
+	font-size: 4vw;
+	line-height: 1.4;
+}
+
+h1 {
+	font-family: consolas;
+	padding: 2vw;
+	margin: 0;
+	background-color: #040;
+	color: #0f0;
+	font-weight: 400;
+}
+
+#output {
+	padding: 5vw 2vw;
+	color: #0f0;
+	background-color: #020;
+	font-family: consolas;
+}
+
+#output p {
+	margin: 0;
+}
+
+@media (min-width: 640px) {
+	body {
+		font-size: 1rem;
+	}
+}
