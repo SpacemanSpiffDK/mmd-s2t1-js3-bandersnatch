@@ -33,12 +33,12 @@ if (playerName.toLowerCase() == 'dan') {
 
 		write('You throw your ' + pocketItem + ' at a nearby wall and watch it pass right through it! Something\'s not right here!?');
 		write('Cthulhu emerges from the shadows as your blood freezes and your sanity leaves for a long vacation.');
-		write('How a simple ' + pocketItem + ' ended the sweet life of ' + playerName + '.');
+		write('How a simple ' + pocketItem + ' ended the short life of ' + playerName + '.');
 
 	} else {
 
 		write('You shrug and put your ' + pocketItem + ' back into your pocket.');
-		write('Life continues and you win the lottery the following day.');
+		write('Life continues and you win the lottery the following day. Wear shades, your future is bright!');
 
 	}
 }
