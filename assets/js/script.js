@@ -28,7 +28,7 @@ if (playerName.toLowerCase() == 'dan') {
 
 	write('You take your ' + pocketItem + ' from your pocket and look at it with a distrusting gaze.');
 
-	var getDestroy = confirm('You get the urge to destroy your ' + pocketItem + ', do want to do it?');
+	let getDestroy = confirm('You get the urge to destroy your ' + pocketItem + ', do want to do it?');
 	if (getDestroy) {
 
 		write('You throw your ' + pocketItem + ' at a nearby wall and watch it pass right through it! Something\'s not right here!?');
@@ -45,6 +45,6 @@ if (playerName.toLowerCase() == 'dan') {
 
 // Just a function to make output easy, nevermind this
 function write(text) {
-	var outputDiv = document.getElementById('output');
+	let outputDiv = document.getElementById('output');
 	outputDiv.innerHTML = outputDiv.innerHTML + '<p>' + text + '</p>';
 }
